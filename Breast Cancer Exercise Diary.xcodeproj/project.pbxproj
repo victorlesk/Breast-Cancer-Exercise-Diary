@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E077E624CC73298A7D3E738 /* Pods_Breast_Cancer_Exercise_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A95CF7FD3CF377DF57D161 /* Pods_Breast_Cancer_Exercise_Diary.framework */; };
+		3814BA7C1F72C1DA00638DC1 /* XMLFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814BA7B1F72C1DA00638DC1 /* XMLFuncs.swift */; };
+		3814BA7F1F72C28D00638DC1 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814BA791F72C12000638DC1 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38321E1A1F72C770006D108B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38321E191F72C770006D108B /* libxml2.tbd */; };
 		38D6DBCF1F72BE8A00347473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6DBCE1F72BE8A00347473 /* AppDelegate.swift */; };
 		38D6DBD11F72BE8A00347473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6DBD01F72BE8A00347473 /* ViewController.swift */; };
 		38D6DBD41F72BE8A00347473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D6DBD21F72BE8A00347473 /* Main.storyboard */; };
@@ -15,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160E6A63039798196D0B5B26 /* Pods-Breast Cancer Exercise Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer Exercise Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer Exercise Diary/Pods-Breast Cancer Exercise Diary.release.xcconfig"; sourceTree = "<group>"; };
+		3814BA761F72C0EB00638DC1 /* GDataXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		3814BA791F72C12000638DC1 /* GDataXMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		3814BA7A1F72C1AC00638DC1 /* Breast Cancer Exercise Diary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breast Cancer Exercise Diary-Bridging-Header.h"; sourceTree = "<group>"; };
+		3814BA7B1F72C1DA00638DC1 /* XMLFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLFuncs.swift; sourceTree = "<group>"; };
+		38321E191F72C770006D108B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		38D6DBCB1F72BE8A00347473 /* Breast Cancer Exercise Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breast Cancer Exercise Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D6DBCE1F72BE8A00347473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D6DBD01F72BE8A00347473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		38D6DBD51F72BE8A00347473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D6DBD81F72BE8A00347473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D6DBDA1F72BE8A00347473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A95CF7FD3CF377DF57D161 /* Pods_Breast_Cancer_Exercise_Diary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breast_Cancer_Exercise_Diary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D944BF5D8D391DD9CC516F /* Pods-Breast Cancer Exercise Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer Exercise Diary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer Exercise Diary/Pods-Breast Cancer Exercise Diary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38321E1A1F72C770006D108B /* libxml2.tbd in Frameworks */,
+				1E077E624CC73298A7D3E738 /* Pods_Breast_Cancer_Exercise_Diary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3814BA751F72C0DE00638DC1 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				3814BA761F72C0EB00638DC1 /* GDataXMLNode.h */,
+				3814BA791F72C12000638DC1 /* GDataXMLNode.m */,
+				3814BA7A1F72C1AC00638DC1 /* Breast Cancer Exercise Diary-Bridging-Header.h */,
+				3814BA7B1F72C1DA00638DC1 /* XMLFuncs.swift */,
+			);
+			name = GDataXML;
+			sourceTree = "<group>";
+		};
 		38D6DBC21F72BE8A00347473 = {
 			isa = PBXGroup;
 			children = (
 				38D6DBCD1F72BE8A00347473 /* Breast Cancer Exercise Diary */,
 				38D6DBCC1F72BE8A00347473 /* Products */,
+				C07F850505C8F5DD55A66813 /* Pods */,
+				96F8E30EBB2AC32827B77A0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +87,27 @@
 				38D6DBD51F72BE8A00347473 /* Assets.xcassets */,
 				38D6DBD71F72BE8A00347473 /* LaunchScreen.storyboard */,
 				38D6DBDA1F72BE8A00347473 /* Info.plist */,
+				3814BA751F72C0DE00638DC1 /* GDataXML */,
 			);
 			path = "Breast Cancer Exercise Diary";
+			sourceTree = "<group>";
+		};
+		96F8E30EBB2AC32827B77A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38321E191F72C770006D108B /* libxml2.tbd */,
+				A8A95CF7FD3CF377DF57D161 /* Pods_Breast_Cancer_Exercise_Diary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07F850505C8F5DD55A66813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D944BF5D8D391DD9CC516F /* Pods-Breast Cancer Exercise Diary.debug.xcconfig */,
+				160E6A63039798196D0B5B26 /* Pods-Breast Cancer Exercise Diary.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38D6DBDD1F72BE8A00347473 /* Build configuration list for PBXNativeTarget "Breast Cancer Exercise Diary" */;
 			buildPhases = (
+				91833888280F67CCB8E7F9F3 /* [CP] Check Pods Manifest.lock */,
 				38D6DBC71F72BE8A00347473 /* Sources */,
 				38D6DBC81F72BE8A00347473 /* Frameworks */,
 				38D6DBC91F72BE8A00347473 /* Resources */,
+				B66BE1CF0979FBC9430414F8 /* [CP] Embed Pods Frameworks */,
+				6285E22BC1B1FF498D284F0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,12 +140,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Digital Stitch";
 				TargetAttributes = {
 					38D6DBCA1F72BE8A00347473 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2GFDWBEHWC;
+						DevelopmentTeam = 2WSGKRMNNT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +181,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6285E22BC1B1FF498D284F0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer Exercise Diary/Pods-Breast Cancer Exercise Diary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91833888280F67CCB8E7F9F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B66BE1CF0979FBC9430414F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer Exercise Diary/Pods-Breast Cancer Exercise Diary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38D6DBC71F72BE8A00347473 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3814BA7C1F72C1DA00638DC1 /* XMLFuncs.swift in Sources */,
 				38D6DBD11F72BE8A00347473 /* ViewController.swift in Sources */,
 				38D6DBCF1F72BE8A00347473 /* AppDelegate.swift in Sources */,
+				3814BA7F1F72C28D00638DC1 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +273,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +283,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,7 +330,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +340,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -261,27 +372,35 @@
 		};
 		38D6DBDE1F72BE8A00347473 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D944BF5D8D391DD9CC516F /* Pods-Breast Cancer Exercise Diary.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2GFDWBEHWC;
+				DEVELOPMENT_TEAM = 2WSGKRMNNT;
 				INFOPLIST_FILE = "Breast Cancer Exercise Diary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.imperial.health.Breast-Cancer-Exercise-Diary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Breast Cancer Exercise Diary/Breast Cancer Exercise Diary-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 			};
 			name = Debug;
 		};
 		38D6DBDF1F72BE8A00347473 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160E6A63039798196D0B5B26 /* Pods-Breast Cancer Exercise Diary.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2GFDWBEHWC;
+				DEVELOPMENT_TEAM = 2WSGKRMNNT;
 				INFOPLIST_FILE = "Breast Cancer Exercise Diary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.imperial.health.Breast-Cancer-Exercise-Diary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Breast Cancer Exercise Diary/Breast Cancer Exercise Diary-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 			};
 			name = Release;
 		};
@@ -304,6 +423,7 @@
 				38D6DBDF1F72BE8A00347473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
