@@ -1,0 +1,12 @@
+/* 
+  Localization.strings
+  Breast Cancer Exercise Diary
+
+  Created by Victor Lesk on 10/11/2017.
+  Copyright © 2017 Digital Stitch. All rights reserved.
+*/
+
+"pcintrotitle" = "Mobilising and Strengthening Exercises";
+"paintrotitle" = "Physical Activity";
+"Mobandstren" = "Mobilising / strengthening";
+"Physicalactexe" = "Physical activity";

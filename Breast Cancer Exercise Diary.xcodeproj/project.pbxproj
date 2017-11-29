@@ -8,11 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		1E077E624CC73298A7D3E738 /* Pods_Breast_Cancer_Exercise_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A95CF7FD3CF377DF57D161 /* Pods_Breast_Cancer_Exercise_Diary.framework */; };
+		380DA2461FCF0D5E00AB25E4 /* ApexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380DA2451FCF0D5E00AB25E4 /* ApexViewController.swift */; };
+		380DA2481FCF17E900AB25E4 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380DA2471FCF17E900AB25E4 /* Auxiliary.swift */; };
 		3814BA7C1F72C1DA00638DC1 /* XMLFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814BA7B1F72C1DA00638DC1 /* XMLFuncs.swift */; };
 		3814BA7F1F72C28D00638DC1 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814BA791F72C12000638DC1 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		38321E1A1F72C770006D108B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38321E191F72C770006D108B /* libxml2.tbd */; };
+		38CA46F61FB5EB6C00CDFD7E /* Indexing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA46F51FB5EB6C00CDFD7E /* Indexing.swift */; };
+		38CA46FA1FB5EBC000CDFD7E /* CGColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA46F71FB5EBC000CDFD7E /* CGColorExtensions.swift */; };
+		38CA46FB1FB5EBC000CDFD7E /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA46F81FB5EBC000CDFD7E /* UIFontExtensions.swift */; };
+		38CA46FC1FB5EBC000CDFD7E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA46F91FB5EBC000CDFD7E /* UIColorExtensions.swift */; };
+		38CA46FE1FB5EE7700CDFD7E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA46FD1FB5EE7700CDFD7E /* IntroViewController.swift */; };
+		38CA47001FB5EE8500CDFD7E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA46FF1FB5EE8500CDFD7E /* BaseViewController.swift */; };
+		38CA47021FB5EEDF00CDFD7E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA47011FB5EEDF00CDFD7E /* UserData.swift */; };
+		38CA47151FB5F09E00CDFD7E /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47031FB5F09C00CDFD7E /* Lato-Semibold.ttf */; };
+		38CA47161FB5F09E00CDFD7E /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47041FB5F09C00CDFD7E /* Lato-BlackItalic.ttf */; };
+		38CA47171FB5F09E00CDFD7E /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47051FB5F09C00CDFD7E /* Lato-BoldItalic.ttf */; };
+		38CA47181FB5F09E00CDFD7E /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47061FB5F09D00CDFD7E /* Lato-LightItalic.ttf */; };
+		38CA47191FB5F09E00CDFD7E /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47071FB5F09D00CDFD7E /* Lato-HeavyItalic.ttf */; };
+		38CA471A1FB5F09E00CDFD7E /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47081FB5F09D00CDFD7E /* Lato-SemiboldItalic.ttf */; };
+		38CA471B1FB5F09E00CDFD7E /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47091FB5F09D00CDFD7E /* Lato-Black.ttf */; };
+		38CA471C1FB5F09F00CDFD7E /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA470A1FB5F09D00CDFD7E /* Lato-Bold.ttf */; };
+		38CA471D1FB5F09F00CDFD7E /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA470B1FB5F09D00CDFD7E /* Lato-Heavy.ttf */; };
+		38CA471E1FB5F09F00CDFD7E /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA470C1FB5F09D00CDFD7E /* Lato-Hairline.ttf */; };
+		38CA471F1FB5F09F00CDFD7E /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA470D1FB5F09D00CDFD7E /* Lato-HairlineItalic.ttf */; };
+		38CA47201FB5F09F00CDFD7E /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA470E1FB5F09E00CDFD7E /* Lato-Light.ttf */; };
+		38CA47211FB5F09F00CDFD7E /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA470F1FB5F09E00CDFD7E /* Lato-Thin.ttf */; };
+		38CA47221FB5F09F00CDFD7E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47101FB5F09E00CDFD7E /* Lato-Regular.ttf */; };
+		38CA47231FB5F09F00CDFD7E /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47111FB5F09E00CDFD7E /* Lato-ThinItalic.ttf */; };
+		38CA47241FB5F09F00CDFD7E /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47121FB5F09E00CDFD7E /* Lato-Italic.ttf */; };
+		38CA47251FB5F09F00CDFD7E /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47131FB5F09E00CDFD7E /* Lato-MediumItalic.ttf */; };
+		38CA47261FB5F09F00CDFD7E /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA47141FB5F09E00CDFD7E /* Lato-Medium.ttf */; };
+		38CA47291FB5F2D100CDFD7E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38CA472B1FB5F2D100CDFD7E /* Localizable.strings */; };
+		38CA472E1FB5F96800CDFD7E /* IntroControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA472D1FB5F96800CDFD7E /* IntroControl.swift */; };
 		38D6DBCF1F72BE8A00347473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6DBCE1F72BE8A00347473 /* AppDelegate.swift */; };
-		38D6DBD11F72BE8A00347473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6DBD01F72BE8A00347473 /* ViewController.swift */; };
 		38D6DBD41F72BE8A00347473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D6DBD21F72BE8A00347473 /* Main.storyboard */; };
 		38D6DBD61F72BE8A00347473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D6DBD51F72BE8A00347473 /* Assets.xcassets */; };
 		38D6DBD91F72BE8A00347473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D6DBD71F72BE8A00347473 /* LaunchScreen.storyboard */; };
@@ -20,14 +48,43 @@
 
 /* Begin PBXFileReference section */
 		160E6A63039798196D0B5B26 /* Pods-Breast Cancer Exercise Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer Exercise Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer Exercise Diary/Pods-Breast Cancer Exercise Diary.release.xcconfig"; sourceTree = "<group>"; };
+		380DA2451FCF0D5E00AB25E4 /* ApexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexViewController.swift; sourceTree = "<group>"; };
+		380DA2471FCF17E900AB25E4 /* Auxiliary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
 		3814BA761F72C0EB00638DC1 /* GDataXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		3814BA791F72C12000638DC1 /* GDataXMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		3814BA7A1F72C1AC00638DC1 /* Breast Cancer Exercise Diary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breast Cancer Exercise Diary-Bridging-Header.h"; sourceTree = "<group>"; };
 		3814BA7B1F72C1DA00638DC1 /* XMLFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLFuncs.swift; sourceTree = "<group>"; };
 		38321E191F72C770006D108B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		38CA46F51FB5EB6C00CDFD7E /* Indexing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indexing.swift; sourceTree = "<group>"; };
+		38CA46F71FB5EBC000CDFD7E /* CGColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGColorExtensions.swift; sourceTree = "<group>"; };
+		38CA46F81FB5EBC000CDFD7E /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		38CA46F91FB5EBC000CDFD7E /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		38CA46FD1FB5EE7700CDFD7E /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		38CA46FF1FB5EE8500CDFD7E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		38CA47011FB5EEDF00CDFD7E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		38CA47031FB5F09C00CDFD7E /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		38CA47041FB5F09C00CDFD7E /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		38CA47051FB5F09C00CDFD7E /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		38CA47061FB5F09D00CDFD7E /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		38CA47071FB5F09D00CDFD7E /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		38CA47081FB5F09D00CDFD7E /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		38CA47091FB5F09D00CDFD7E /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		38CA470A1FB5F09D00CDFD7E /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		38CA470B1FB5F09D00CDFD7E /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		38CA470C1FB5F09D00CDFD7E /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		38CA470D1FB5F09D00CDFD7E /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		38CA470E1FB5F09E00CDFD7E /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		38CA470F1FB5F09E00CDFD7E /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		38CA47101FB5F09E00CDFD7E /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		38CA47111FB5F09E00CDFD7E /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		38CA47121FB5F09E00CDFD7E /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		38CA47131FB5F09E00CDFD7E /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		38CA47141FB5F09E00CDFD7E /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		38CA472A1FB5F2D100CDFD7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38CA472C1FB5F2E000CDFD7E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38CA472D1FB5F96800CDFD7E /* IntroControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroControl.swift; sourceTree = "<group>"; };
 		38D6DBCB1F72BE8A00347473 /* Breast Cancer Exercise Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breast Cancer Exercise Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D6DBCE1F72BE8A00347473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38D6DBD01F72BE8A00347473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38D6DBD31F72BE8A00347473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38D6DBD51F72BE8A00347473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D6DBD81F72BE8A00347473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +117,90 @@
 			name = GDataXML;
 			sourceTree = "<group>";
 		};
+		38CA46ED1FB5EB1C00CDFD7E /* Lato Font */ = {
+			isa = PBXGroup;
+			children = (
+				38CA47091FB5F09D00CDFD7E /* Lato-Black.ttf */,
+				38CA47041FB5F09C00CDFD7E /* Lato-BlackItalic.ttf */,
+				38CA470A1FB5F09D00CDFD7E /* Lato-Bold.ttf */,
+				38CA47051FB5F09C00CDFD7E /* Lato-BoldItalic.ttf */,
+				38CA470C1FB5F09D00CDFD7E /* Lato-Hairline.ttf */,
+				38CA470D1FB5F09D00CDFD7E /* Lato-HairlineItalic.ttf */,
+				38CA470B1FB5F09D00CDFD7E /* Lato-Heavy.ttf */,
+				38CA47071FB5F09D00CDFD7E /* Lato-HeavyItalic.ttf */,
+				38CA47121FB5F09E00CDFD7E /* Lato-Italic.ttf */,
+				38CA470E1FB5F09E00CDFD7E /* Lato-Light.ttf */,
+				38CA47061FB5F09D00CDFD7E /* Lato-LightItalic.ttf */,
+				38CA47141FB5F09E00CDFD7E /* Lato-Medium.ttf */,
+				38CA47131FB5F09E00CDFD7E /* Lato-MediumItalic.ttf */,
+				38CA47101FB5F09E00CDFD7E /* Lato-Regular.ttf */,
+				38CA47031FB5F09C00CDFD7E /* Lato-Semibold.ttf */,
+				38CA47081FB5F09D00CDFD7E /* Lato-SemiboldItalic.ttf */,
+				38CA470F1FB5F09E00CDFD7E /* Lato-Thin.ttf */,
+				38CA47111FB5F09E00CDFD7E /* Lato-ThinItalic.ttf */,
+			);
+			name = "Lato Font";
+			sourceTree = "<group>";
+		};
+		38CA46EE1FB5EB2000CDFD7E /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				38CA472D1FB5F96800CDFD7E /* IntroControl.swift */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		38CA46EF1FB5EB2400CDFD7E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				38CA47011FB5EEDF00CDFD7E /* UserData.swift */,
+				380DA2471FCF17E900AB25E4 /* Auxiliary.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		38CA46F01FB5EB2700CDFD7E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				38CA46FD1FB5EE7700CDFD7E /* IntroViewController.swift */,
+				38CA46FF1FB5EE8500CDFD7E /* BaseViewController.swift */,
+				380DA2451FCF0D5E00AB25E4 /* ApexViewController.swift */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		38CA46F11FB5EB2900CDFD7E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		38CA46F21FB5EB2C00CDFD7E /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				38CA46F71FB5EBC000CDFD7E /* CGColorExtensions.swift */,
+				38CA46F91FB5EBC000CDFD7E /* UIColorExtensions.swift */,
+				38CA46F81FB5EBC000CDFD7E /* UIFontExtensions.swift */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		38CA46F31FB5EB2F00CDFD7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		38CA46F41FB5EB3500CDFD7E /* Indexing */ = {
+			isa = PBXGroup;
+			children = (
+				38CA46F51FB5EB6C00CDFD7E /* Indexing.swift */,
+			);
+			name = Indexing;
+			sourceTree = "<group>";
+		};
 		38D6DBC21F72BE8A00347473 = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +223,19 @@
 			isa = PBXGroup;
 			children = (
 				38D6DBCE1F72BE8A00347473 /* AppDelegate.swift */,
-				38D6DBD01F72BE8A00347473 /* ViewController.swift */,
 				38D6DBD21F72BE8A00347473 /* Main.storyboard */,
 				38D6DBD51F72BE8A00347473 /* Assets.xcassets */,
 				38D6DBD71F72BE8A00347473 /* LaunchScreen.storyboard */,
 				38D6DBDA1F72BE8A00347473 /* Info.plist */,
+				38CA472B1FB5F2D100CDFD7E /* Localizable.strings */,
+				38CA46F41FB5EB3500CDFD7E /* Indexing */,
+				38CA46F31FB5EB2F00CDFD7E /* Images */,
+				38CA46F21FB5EB2C00CDFD7E /* Styles */,
+				38CA46F11FB5EB2900CDFD7E /* Protocols */,
+				38CA46F01FB5EB2700CDFD7E /* VCs */,
+				38CA46EF1FB5EB2400CDFD7E /* Data */,
+				38CA46EE1FB5EB2000CDFD7E /* Widgets */,
+				38CA46ED1FB5EB1C00CDFD7E /* Lato Font */,
 				3814BA751F72C0DE00638DC1 /* GDataXML */,
 			);
 			path = "Breast Cancer Exercise Diary";
@@ -146,6 +295,7 @@
 					38D6DBCA1F72BE8A00347473 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2WSGKRMNNT;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,6 +307,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 38D6DBC21F72BE8A00347473;
 			productRefGroup = 38D6DBCC1F72BE8A00347473 /* Products */;
@@ -173,9 +324,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CA47201FB5F09F00CDFD7E /* Lato-Light.ttf in Resources */,
+				38CA47231FB5F09F00CDFD7E /* Lato-ThinItalic.ttf in Resources */,
+				38CA471E1FB5F09F00CDFD7E /* Lato-Hairline.ttf in Resources */,
+				38CA471D1FB5F09F00CDFD7E /* Lato-Heavy.ttf in Resources */,
+				38CA471C1FB5F09F00CDFD7E /* Lato-Bold.ttf in Resources */,
+				38CA47191FB5F09E00CDFD7E /* Lato-HeavyItalic.ttf in Resources */,
+				38CA471F1FB5F09F00CDFD7E /* Lato-HairlineItalic.ttf in Resources */,
 				38D6DBD91F72BE8A00347473 /* LaunchScreen.storyboard in Resources */,
+				38CA47151FB5F09E00CDFD7E /* Lato-Semibold.ttf in Resources */,
+				38CA47251FB5F09F00CDFD7E /* Lato-MediumItalic.ttf in Resources */,
+				38CA47161FB5F09E00CDFD7E /* Lato-BlackItalic.ttf in Resources */,
+				38CA47211FB5F09F00CDFD7E /* Lato-Thin.ttf in Resources */,
+				38CA47241FB5F09F00CDFD7E /* Lato-Italic.ttf in Resources */,
+				38CA47171FB5F09E00CDFD7E /* Lato-BoldItalic.ttf in Resources */,
+				38CA471A1FB5F09E00CDFD7E /* Lato-SemiboldItalic.ttf in Resources */,
 				38D6DBD61F72BE8A00347473 /* Assets.xcassets in Resources */,
 				38D6DBD41F72BE8A00347473 /* Main.storyboard in Resources */,
+				38CA47291FB5F2D100CDFD7E /* Localizable.strings in Resources */,
+				38CA471B1FB5F09E00CDFD7E /* Lato-Black.ttf in Resources */,
+				38CA47181FB5F09E00CDFD7E /* Lato-LightItalic.ttf in Resources */,
+				38CA47261FB5F09F00CDFD7E /* Lato-Medium.ttf in Resources */,
+				38CA47221FB5F09F00CDFD7E /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,16 +404,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CA46FE1FB5EE7700CDFD7E /* IntroViewController.swift in Sources */,
+				38CA472E1FB5F96800CDFD7E /* IntroControl.swift in Sources */,
+				38CA46F61FB5EB6C00CDFD7E /* Indexing.swift in Sources */,
+				38CA46FA1FB5EBC000CDFD7E /* CGColorExtensions.swift in Sources */,
+				380DA2461FCF0D5E00AB25E4 /* ApexViewController.swift in Sources */,
+				38CA46FB1FB5EBC000CDFD7E /* UIFontExtensions.swift in Sources */,
+				380DA2481FCF17E900AB25E4 /* Auxiliary.swift in Sources */,
 				3814BA7C1F72C1DA00638DC1 /* XMLFuncs.swift in Sources */,
-				38D6DBD11F72BE8A00347473 /* ViewController.swift in Sources */,
+				38CA47021FB5EEDF00CDFD7E /* UserData.swift in Sources */,
+				38CA47001FB5EE8500CDFD7E /* BaseViewController.swift in Sources */,
 				38D6DBCF1F72BE8A00347473 /* AppDelegate.swift in Sources */,
 				3814BA7F1F72C28D00638DC1 /* GDataXMLNode.m in Sources */,
+				38CA46FC1FB5EBC000CDFD7E /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		38CA472B1FB5F2D100CDFD7E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CA472A1FB5F2D100CDFD7E /* en */,
+				38CA472C1FB5F2E000CDFD7E /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		38D6DBD21F72BE8A00347473 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -267,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -324,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -382,7 +572,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.imperial.health.Breast-Cancer-Exercise-Diary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Breast Cancer Exercise Diary/Breast Cancer Exercise Diary-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 			};
 			name = Debug;
@@ -399,7 +590,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.imperial.health.Breast-Cancer-Exercise-Diary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Breast Cancer Exercise Diary/Breast Cancer Exercise Diary-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 			};
 			name = Release;
